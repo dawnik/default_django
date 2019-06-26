@@ -14,5 +14,12 @@
 
     <h1>Czesc</h1>
 
+    {% if user.is_authenticated %}
+        <a href="{% url 'logout' %}">logout</a>
+    {% else %}
+        <a href="{% url 'login' %}">login</a>
+        <a href="{% url 'register' %}">register</a>
+    {% endif %}
+
 </body>
 </html>
