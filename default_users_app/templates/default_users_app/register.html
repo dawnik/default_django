@@ -1,2 +1,5 @@
-{% csrf_token %}
-{{ form }}
+<form method="post">
+    {% csrf_token %}
+    {{ form }}
+    <button type="submit">Sign Up</button>
+</form>
