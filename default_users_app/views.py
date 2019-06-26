@@ -13,3 +13,7 @@ def register_view(request):
     else:
         form = UserCreationForm() #generation empty blank
     return render(request, 'default_users_app/register.html', {'form': form})
+
+
+def profile_user_view(request):
+    return render(request, 'default_users_app/profile.html')
