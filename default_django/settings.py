@@ -121,4 +121,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-LOGIN_REDIRECT_URL = 'index'
+LOGIN_REDIRECT_URL = 'index' #if you login correct then you go index page
+LOGIN_URL = 'login' #if you want to go profile but not login then drive to login page
