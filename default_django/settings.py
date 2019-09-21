@@ -25,7 +25,7 @@ SECRET_KEY = ')o5v$-7&y9vx5=k70l(srw6r6!o#@x$=3ee+hbsj(fk91ugorv'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['domgaw.azurewebsites.net']
 
 
 # Application definition
@@ -124,4 +124,3 @@ STATIC_URL = '/static/'
 LOGIN_REDIRECT_URL = 'index' #if you login correct then you go index page
 LOGIN_URL = 'login' #if you want to go profile but not login then drive to login page
 
-ALLOWED_HOST = ['http://127.0.0.1:8000/dupa']
