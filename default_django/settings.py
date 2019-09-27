@@ -25,7 +25,7 @@ SECRET_KEY = ')o5v$-7&y9vx5=k70l(srw6r6!o#@x$=3ee+hbsj(fk91ugorv'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['domgaw.azurewebsites.net']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
