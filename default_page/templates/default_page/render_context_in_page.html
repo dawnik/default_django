@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Render context in page</title>
-</head>
-<body>
-    <h1>{{ title }}</h1>
-</body>
-</html>
+{% extends "default_page/base.html" %}
+
+{% block head_title_page %} Render context in page {% endblock %}
+
+{% block content %}
+
+    {{ title }}
+
+{% endblock %}
