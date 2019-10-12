@@ -5,5 +5,16 @@
 {% block content %}
 
     {{ title }}
+    {{ user }}
+
+    {% if user.is_authenticated %}
+
+        <h1>See only user</h1>
+
+        {% for a in my_list %}
+            <li>{{ a }}</li>
+        {% endfor %}
+
+    {% endif %}
 
 {% endblock %}
