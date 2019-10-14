@@ -78,6 +78,7 @@ WSGI_APPLICATION = 'default_django.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
+        'OPTIONS': {'timeout': 20,},
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
