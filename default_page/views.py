@@ -3,6 +3,13 @@ from django.shortcuts import render
 def index(request):
     return render(request, 'default_page/index.html')
 
+def js(request):
+    return render(request, 'default_page/js_training.html')
+
+def bs(request):
+    return render(request, 'default_page/bs_training.html')
+
+
 def render_context_in_page(request):
     my_title = "Hello there..."
     context = {"title": "my title,"}
@@ -12,3 +19,4 @@ def render_context_in_page(request):
 
 def render_context_in_page_method_2(request):
     return render(request, 'render_context_in_page_method_2.html')
+

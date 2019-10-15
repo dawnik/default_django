@@ -1,0 +1,14 @@
+{% extends 'default_page/base.html' %}
+
+{% block content %}
+
+<h2>My First JavaScript</h2>
+    <button type="button"
+        onclick="document.getElementById('var_transmiter').innerHTML = Date()">
+        Click me to display Date and Time.
+    </button>
+    <p id="var_transmiter"></p>
+
+
+
+{% endblock content %}
