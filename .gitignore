@@ -10,3 +10,8 @@ default_users_app/__pycache__/
 default_users_app/migrations/__pycache__/
 default_django/__pycache__/settings.cpython-37.pyc
 default_django/__pycache__/urls.cpython-37.pyc
+
+.idea/default_django.iml
+.idea/misc.xml
+default_django/settings.py
+
