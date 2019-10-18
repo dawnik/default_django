@@ -13,7 +13,6 @@ default_django/__pycache__/urls.cpython-37.pyc
 
 .idea/default_django.iml
 .idea/misc.xml
-default_django/settings.py
 
 polls/__pycache__/models.cpython-37.pyc
 polls/__pycache__/urls.cpython-37.pyc
