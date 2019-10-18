@@ -3,6 +3,7 @@ from django.urls import path, include
 from . import views
 from django.contrib.auth import views as django_default_views
 
+app_name = 'default_users_app'
 urlpatterns = [
     path('termin', views.termin, name='termin'),
     path('register', views.register_view, name='register'),

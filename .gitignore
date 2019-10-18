@@ -10,3 +10,7 @@ default_users_app/__pycache__/
 default_users_app/migrations/__pycache__/
 default_django/__pycache__/settings.cpython-37.pyc
 default_django/__pycache__/urls.cpython-37.pyc
+default_page/__pycache__/admin.cpython-37.pyc
+default_page/__pycache__/models.cpython-37.pyc
+default_page/migrations/0001_initial.py
+

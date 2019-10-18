@@ -1,0 +1,9 @@
+
+
+<h1>{{ context.trening_topic }}</h1>
+<ul>
+{% for c in context.choice_set.all %}
+    <li>{{ c.trening_topic }}</li>
+{% endfor %}
+</ul>
+

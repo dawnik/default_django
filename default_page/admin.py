@@ -1,3 +1,6 @@
 from django.contrib import admin
+from .models import TreiningTopic
+from .models import TreningChoice
 
-# Register your models here.
+admin.site.register(TreiningTopic)
+admin.site.register(TreningChoice)
