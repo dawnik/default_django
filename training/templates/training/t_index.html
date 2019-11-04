@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{% if list_trainig %}
+    {% for training in list_trainig %}
+        <li><a href="{% url 'training:t_detail' training.id %}">{{ training.training_title }}</a></li>
+    {% endfor %}
+{% endif %}
+
+
+</body>
+</html>

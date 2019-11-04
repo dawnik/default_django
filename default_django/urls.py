@@ -22,4 +22,5 @@ urlpatterns = [
     path('', include('default_page.urls')),
     path('', include('default_users_app.urls')),
     path('', include('polls.urls')),
+    path('', include('training.urls')),
 ]

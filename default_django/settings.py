@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+    'training.apps.TrainingConfig',
     'polls.apps.PollsConfig',
     'default_users_app.apps.DefaultUsersAppConfig',
     'default_page.apps.DefaultPageConfig',
